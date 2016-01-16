@@ -2,16 +2,32 @@
 
 Tiny template for testing out Imba in the browser.
 
-## Installing Imba
+## Getting started
 
-    > npm install -g imba
+### Install Imba
+```bash
+npm install -g imba
+```
 
-## Compiling files
+### Clone repository
+```bash
+git clone https://github.com/somebee/hello-world-imba.git
+```
 
-After installing Imba, navigate to the root directory in your terminal, and type:
+### Enter repository
+```bash
+cd hello-world-imba
+```
 
-    imba watch src/
+### Install dependencies
+```bash
+npm install
+```
 
-This will start watching for .imba-files in src/ and automatically compiling them into lib/.
+### Watch to recompile
+```bash
+npm run watch
+```
 
-index.html can be opened in your browser as a file.
+## Run
+Open `index.html` in your browser (you should not need a webserver).
