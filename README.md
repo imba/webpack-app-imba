@@ -4,9 +4,10 @@ Tiny template for testing out Imba in the browser.
 
 ## Getting started
 
-### Install Imba
+### Install imba & webpack
 ```bash
 npm install -g imba
+npm install -g webpack
 ```
 
 ### Clone repository
@@ -19,14 +20,9 @@ git clone https://github.com/somebee/hello-world-imba.git
 cd hello-world-imba
 ```
 
-### Install dependencies
+### Continously build project
 ```bash
-npm install
-```
-
-### Watch to recompile
-```bash
-npm run watch
+imbapack -w
 ```
 
 ## Run
