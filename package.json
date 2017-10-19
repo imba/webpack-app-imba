@@ -1,12 +1,18 @@
 {
   "name": "hello-world-imba",
   "description": "Hello World for Imba",
-  "keywords": ["imba"],
+  "keywords": [
+    "imba"
+  ],
   "author": "Sindre Aarsaether",
   "bugs": "https://github.com/somebee/hello-world-imba/issues",
   "version": "1.0.0",
   "engines": {
     "node": ">=0.8.0"
+  },
+  "scripts": {
+    "build": "imbapack",
+    "watch": "imbapack -w"
   },
   "files": [],
   "directories": {},
@@ -15,6 +21,7 @@
     "type": "git",
     "url": "git://github.com/somebee/hello-world-imba.git"
   },
+  "license": "MIT",
   "dependencies": {
     "imba": "^1.0.0"
   }

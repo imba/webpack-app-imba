@@ -1,8 +1,12 @@
-# require the imba stdlib
-require 'imba'
 
-# log to the console
-console.log "hello world!"
+tag HelloWorld
 
-# mount a single h1 tag in document body
-Imba.mount <h1> "Hello world!"
+	def render
+		<self>
+			<header>
+				<h1> "Hello World"
+			<section>
+			<footer>
+
+# mount an instance of HelloWorld in root
+Imba.mount <HelloWorld>
