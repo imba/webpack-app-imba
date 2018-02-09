@@ -1,14 +1,12 @@
 # hello-world-imba
 
-Tiny template for testing out Imba in the browser.
+Tiny template for testing out Imba
 
 ## Getting started
 
 ```bash
-git clone https://github.com/somebee/hello-world-imba.git
-cd hello-world-imba
+# install dependencies
 npm install
-npm run watch
+# start webpack-dev-server and compiler
+npm run dev
 ```
-
-Open `index.html` in your browser (you should not need a webserver).
