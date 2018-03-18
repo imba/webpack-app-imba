@@ -1484,9 +1484,9 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-imba@1.3.0-beta.6:
-  version "1.3.0-beta.6"
-  resolved "https://registry.yarnpkg.com/imba/-/imba-1.3.0-beta.6.tgz#f086194d32320b65645894c48c3c369af5b2f974"
+imba@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/imba/-/imba-1.3.3.tgz#62156d5c679810c47dce56538dbfc1d3e408cf94"
 
 import-local@^1.0.0:
   version "1.0.0"

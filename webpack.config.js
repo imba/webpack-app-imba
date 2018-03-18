@@ -2,7 +2,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /.imba$/,
+				test: /\.imba$/,
 				loader: 'imba/loader',
 			}
 		]
