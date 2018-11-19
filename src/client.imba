@@ -1,6 +1,4 @@
-
 var store = {
-	title: ""
 	items: [
 		{title: "git clone hello-world-imba"}
 		{title: "npm install"}
@@ -12,8 +10,7 @@ var store = {
 tag App
 	def addItem
 		data:items.push(title: data:title)
-		data:title = ""
-		
+
 	def render
 		<self.vbox>
 			<header>
