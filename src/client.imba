@@ -1,3 +1,5 @@
+# index.imba
+import { List } from './item-list'
 
 var store = {
 	title: ""
@@ -13,14 +15,13 @@ tag App
 	def addItem
 		data:items.push(title: data:title)
 		data:title = ""
-		
+
 	def render
 		<self.vbox>
 			<header>
 				<input[data:title] placeholder="New..." :keyup.enter.addItem>
 				<button :tap.addItem> 'Add item'
-			<ul> for item in data:items
-				<li> item:title
+			<List list=data:items>
 
 
 Imba.mount <App[store]>
