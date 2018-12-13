@@ -8,7 +8,7 @@ server.get '/' do |req,res|
 		<head>
 			<title> "Imba - Hello World"
 			<meta charset="utf-8">
-			<link rel="stylesheet" href="/dist/index.css" media="screen">
+			<link rel="stylesheet" href="/index.css" media="screen">
 		<body>
 			<script src="/client.js">
 	
