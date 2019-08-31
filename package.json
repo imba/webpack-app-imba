@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "imba src/server.imba",
-    "dev":  "webpack-dev-server --content-base dist/",
+    "dev":  "webpack-dev-server --hot --content-base dist/",
     "build": "webpack",
     "watch": "webpack --watch --progress --colors --display-modules"
   },
