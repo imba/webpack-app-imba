@@ -84,6 +84,10 @@ ul {
     padding: 10px;
 }
 
+.completed {
+    text-decoration: line-through;
+}
+
 li {
     padding: 8px 12px;
     display: flex;
