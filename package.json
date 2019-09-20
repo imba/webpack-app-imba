@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "imba": "^1.4.7",
+    "imba": "^1.4.8",
     "webpack": "^4.39.3",
     "webpack-dev-server": "^3.8.0"
   },
