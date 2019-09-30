@@ -25,8 +25,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "css-loader": "^3.2.0",
     "express": "^4.17.1",
     "imba": "^1.4.8",
+    "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
     "webpack-dev-server": "^3.8.0"
   },

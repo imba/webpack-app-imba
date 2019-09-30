@@ -1,8 +1,7 @@
 # Hello World Imba
 
-Tiny template for testing out Imba. Click [Use this
-template](https://github.com/imba/hello-world-imba/generate) on GitHub to
-create a new repository with this template.
+Tiny template for testing out Imba using [CSS modules][0]. Click [Use this
+template][1] on GitHub to create a new repository with this template.
 
 ## Getting started
 
@@ -27,3 +26,6 @@ yarn run dev # npm run dev
 ```
 ./node_modules/.bin/imba src/server.imba
 ```
+
+[0]: https://github.com/css-modules/css-modules
+[1]: https://github.com/imba/hello-world-imba/generate
