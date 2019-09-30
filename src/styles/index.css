@@ -17,7 +17,7 @@ body {
 
 :focus { outline: none !important; }
 
-.App {
+:global .App {
     background: white;
 }
 
