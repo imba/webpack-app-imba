@@ -1690,10 +1690,10 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-imba@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/imba/-/imba-1.4.7.tgz#6eb32931ce7e88d31aa78e49964a0edcfec61918"
-  integrity sha512-S3GuLmyCkBpl4geug4uuhceyJ3NEEg1tXs9WHKP/7S38jbkf9TuZR8N0p0ga85kEwzJkJ8gyUxlhK5Wm/Ko4pA==
+imba@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/imba/-/imba-1.5.1.tgz#12cd04d4d0f177fce7511fb92be99b3701400292"
+  integrity sha512-yZe/pVGV/K0y5RW0/NA2OSCIbHdvOK7SdvuVKoDYIW+p4E5Wx8ycXnR32upX/Dw3VuV6LcLDG24MC4gZRrBLZw==
 
 import-local@2.0.0, import-local@^2.0.0:
   version "2.0.0"
