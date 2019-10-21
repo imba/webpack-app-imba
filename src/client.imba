@@ -1,4 +1,4 @@
-var styles = require('./styles/index.css')
+import {vbox, completed} from './styles/index.css'
 
 var store = {
 	title: ""
@@ -20,11 +20,11 @@ tag App
 		item:completed = !item:completed
 		
 	def render
-		<self.{styles:vbox}>
+		<self.{vbox}>
 			<header>
 				<input[data:title] placeholder="New..." :keyup.enter.addItem>
 				<button :tap.addItem> 'Add item'
 			<ul> for item in data:items
-				<li .{item:completed and styles:completed} :tap.completeItem(item)> item:title
+				<li .{item:completed and completed} :tap.completeItem(item)> item:title
 
 Imba.mount <App[store]>
