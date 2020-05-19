@@ -1,4 +1,5 @@
 import {vbox, completed} from './styles/index.css'
+import { List } from './item-list'
 
 var store = {
 	title: ""
@@ -18,13 +19,12 @@ tag App
 	def completeItem item
 		console.log "clicked,{item:completed}"
 		item:completed = !item:completed
-		
+
 	def render
 		<self.{vbox}>
 			<header>
 				<input[data:title] placeholder="New..." :keyup.enter.addItem>
 				<button :tap.addItem> 'Add item'
-			<ul> for item in data:items
-				<li .{item:completed and completed} :tap.completeItem(item)> item:title
+			<List list=data:items>
 
 Imba.mount <App[store]>
