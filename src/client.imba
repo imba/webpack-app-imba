@@ -7,7 +7,6 @@ var store = {
 		{title: "git clone hello-world-imba", completed: false}
 		{title: "npm install", completed: false}
 		{title: "npm run dev", completed: false}
-		{title: "npm mark dev", completed: false}
 		{title: "play around", completed: false}
 	]
 }
