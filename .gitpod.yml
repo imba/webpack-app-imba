@@ -1,3 +1,7 @@
+ports:
+  - port: 8080
+    onOpen: open-preview
+
 vscode:
   extensions:
     - scrimba.vsimba@2.1.1:VOA20iAD+RG3yMfe73k32Q==
