@@ -1,5 +1,5 @@
-var express = require 'express'
-var server = express()
+import express from 'express'
+const server = express()
 
 server.use(express.static('./dist'))
 
@@ -14,7 +14,7 @@ server.get '/' do |req,res|
 	
 	return res.send html.toString
 
-var port = process:env.PORT or 8080
+var port = process.env.PORT or 8080
 
-var server = server.listen(port) do
+server.listen(port) do
 	console.log 'server is running on port ' + port
