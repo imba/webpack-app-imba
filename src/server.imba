@@ -1,20 +1,19 @@
 import express from 'express'
-const server = express()
+const server = express!
 
-server.use(express.static('./dist'))
+server.use express.static('./dist')
 
-server.get '/' do |req,res|
-	var html = <html>
+server.get '/' do(req,res)
+	const html = <html>
 		<head>
 			<title> "Imba - Hello World"
 			<meta charset="utf-8">
-			<link rel="stylesheet" href="/index.css" media="screen">
 		<body>
 			<script src="/client.js">
 	
 	return res.send html.toString
 
-var port = process.env.PORT or 8080
+const port = process.env.PORT or 9000
 
 server.listen(port) do
 	console.log 'server is running on port ' + port

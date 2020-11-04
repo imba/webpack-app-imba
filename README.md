@@ -1,14 +1,13 @@
 # Hello World Imba
 
-Tiny template for testing out Imba using [CSS modules][0]. Click [Use this
-template][1] on GitHub to create a new repository with this template.
+Tiny template for Imba using webpack & webpack-dev-server
 
 ## Getting started
 
 ```
-git clone https://github.com/imba/hello-world-imba
-cd hello-world-imba
-yarn # npm install
+git clone https://github.com/imba/webpack-app-imba
+cd webpack-app-imba
+npm install
 ```
 
 You can run the app in two ways, either served via the webpack-dev-server or
@@ -17,15 +16,18 @@ Express.
 ### Webpack
 
 ```bash
-# start webpack-dev-server and compiler
-yarn run dev # npm run dev
+npm start
+# Go to url logged out by devserver
+# usually "Project is running at http://localhost:8080/"
 ```
 
 ### Server side
 
+First make sure you have built or are watching the client
+```bash
+npm run watch
 ```
-./node_modules/.bin/imba src/server.imba
+Then in another tab / session
+```bash
+npm run express
 ```
-
-[0]: https://github.com/css-modules/css-modules
-[1]: https://github.com/imba/hello-world-imba/generate
